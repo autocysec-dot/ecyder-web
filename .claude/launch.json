@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["serve", "-l", "5050", "."],
       "port": 5050
+    },
+    {
+      "name": "ecyder-academy-static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "5051", "../eCyder_Academy_Web"],
+      "port": 5051
     }
   ]
 }
